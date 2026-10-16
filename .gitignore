@@ -1,0 +1,22 @@
+# Environnements virtuels Python
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Données LeRobot, démonstrations et logs
+data/
+datasets/
+logs/
+*.mp4
+*.hdf5
+*.h5
+
+# Poids des modèles d'imitation
+*.pt
+*.pth
+*.ckpt
+
+# Fichiers OS et éditeur
+.vscode/
+.DS_Store
