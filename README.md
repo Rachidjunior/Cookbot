@@ -14,14 +14,15 @@ Le pipeline de développement s'articule autour de trois grands axes :
 
 ## Structure du dépôt (en cours de construction)
 
-\`\`\`text
+```text
 CookBot/
 ├── simulation/      # Scripts pour lancer l'environnement virtuel et configurer le X-Arm 7
 ├── teleoperation/   # Outils de contrôle à distance pour générer les démonstrations
 ├── lerobot_utils/   # Scripts de conversion et de formatage des données au format LeRobot
 ├── training/        # Scripts d'entraînement des modèles d'imitation
 └── README.md
-\`\`\`
+```
+
 
 *(Note : L'architecture évoluera à mesure que les différents modules seront implémentés).*
 
@@ -35,16 +36,16 @@ CookBot/
 ### Installation de l'environnement de développement
 
 1. **Cloner le dépôt :**
-   \`\`\`bash
-   git clone https://github.com/Rachidjunior/Cookbot.git
+   ```bash
+   git clone [https://github.com/Rachidjunior/Cookbot.git](https://github.com/Rachidjunior/Cookbot.git)
    cd CookBot
-   \`\`\`
+   ```
 
 2. **Créer et activer un environnement virtuel :**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    source venv/bin/activate
-   \`\`\`
+   ```
 
 3. **Installer les dépendances (À venir) :**
    *Un fichier `requirements.txt` ou `pyproject.toml` sera ajouté prochainement pour installer l'environnement de simulation et la stack LeRobot.*
